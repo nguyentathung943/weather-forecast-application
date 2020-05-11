@@ -1,0 +1,78 @@
+body{
+    color:#17202A  ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width:1400px;
+    margin: 0px 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    background-color: #5499C7  ;
+    background-image: url(/img/theme.jpg);
+}
+.ques{
+    margin: 10px 10px;
+}
+
+.helpp{
+    font-size: 20px;
+}
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color:#17202A;
+    padding: 8px 0;
+    margin-left: 1px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+header{
+    margin-top: 12px;
+    margin-bottom:38px;  
+
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: #424949 ;
+    margin-right: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#EDBB99; 
+}
+
+
+
+.avatar{
+    width:250px;
+}
+
+input{
+    border: 1px solid #424949 ;
+    padding: 6px;
+    width: 230px;
+}
+
+button{
+    cursor: pointer;
+    border:1px solid #888888;
+    background:#888888;
+    color: white;
+    padding: 8px;
+}
+
+
+button:hover{
+    color:black;
+    background-color: #D7DBDD;
+}
